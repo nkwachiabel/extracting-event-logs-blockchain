@@ -1,0 +1,2609 @@
+<?xml version="1.0" ?>
+<!--This file has been generated with the OpenXES library. It conforms-->
+<!--to the XML serialization of the XES standard for log storage and-->
+<!--management.-->
+<!--XES standard version: 1.0-->
+<!--OpenXES library version: 1.0RC7-->
+<!--OpenXES is available from http://www.openxes.org/-->
+<log openxes.version="1.0RC7" xes.features="nested-attributes" xes.version="1.0">
+	<extension name="Cost" prefix="cost" uri="http://www.xes-standard.org/cost.xesext"/>
+	<extension name="Identity" prefix="identity" uri="http://www.xes-standard.org/identity.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<string key="concept:name" value="Incident Management Process"/>
+	<string key="lifecycle:model" value="standard"/>
+	<trace>
+		<string key="concept:name" value="i0x00040F28dAE5496E2Aa7069Ee522291454f9428F"/>
+		<string key="id" value="i0x00040F28dAE5496E2Aa7069Ee522291454f9428F"/>
+		<event>
+			<string key="id" value="i0x29e663ef7b84c54f0edc3e3fd143499cbabb574f262cf99c669b4382156d7d53"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:06:22.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196605"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x4642478f99a5d70d2b7022384b5770ca22c029f72c09e00704295c48cb27937b"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:06:35.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196607"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000002"/>
+		</event>
+		<event>
+			<string key="id" value="i0x449cb40c931b8db89d28be73e7498a7fd9c4463336457c85c1f4f5de72cb8a8f"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:07:20.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196609"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000000e"/>
+		</event>
+		<event>
+			<string key="id" value="i0x0682eb615446255381604e5f4ba8449b91fd94d51acd48e75c7429f100969237"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:08:38.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196613"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x509200729b638c771d2369a89678d2278513024a2a3f0b3b2ce2e50ace07f542"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:09:04.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196615"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x5eb39cad9d66100c510f2bebd67d8a0e5613ec491886a60e19e2357126327e2c"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:09:14.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196617"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0xe0760f01c209dc75b89ef43cb8f31faf0770466e9aca68781ea668e9504c8407"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:09:22.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196619"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x05b218BD7381ca79C1C6D3Aa3C0D5e1d304F09ca"/>
+		<string key="id" value="i0x05b218BD7381ca79C1C6D3Aa3C0D5e1d304F09ca"/>
+		<event>
+			<string key="id" value="i0xe09d2e06003b35dbbcb37b2a1d9b9c35feb6bb26a3a8380a04f2cf57d5d9486b"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:37:45.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196740"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x1fec61d698f410f2ef29316babb02d3af54dae03475e3310dfebc7a9ccafef4e"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:38:00.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196742"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa000000000000000000000000000000000000000000000000000000000000004a"/>
+		</event>
+		<event>
+			<string key="id" value="i0x31f07be6299005abf966197bf0a1e2535c0baaac3f1351763c14354886fe7a6b"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:38:33.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196744"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000018"/>
+		</event>
+		<event>
+			<string key="id" value="i0x370e1fd52b61b1774e9e2954a294d725cd7f2a505ae7975fa4d95660ba705f13"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:38:52.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196746"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x33700c7c21ff0e1835e3b6dab07a808a5acd8cd94f2964aa52205b5363567113"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:38:57.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196748"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x9821a530d96c2c895925a873f2f94459883391e83249d39d4582c7c0b7fcd79c"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:39:48.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196750"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x1183893031f16661519cb092815c47af8d9238199a93c9c3634ef668325abb2e"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:40:00.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196752"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x0E6e0313dBe1Ba7A8bCb622EE7A77EaCBc9eF73f"/>
+		<string key="id" value="i0x0E6e0313dBe1Ba7A8bCb622EE7A77EaCBc9eF73f"/>
+		<event>
+			<string key="id" value="i0x656252f3ecee102d981520ca9e0ca0f7048bce99e4f6fead89d358cdbedd6156"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:44:22.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196772"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0xd74e6bcf6d556fa0f00024d2d4bdbe7f573512e133a060f0575b4fb30c2ec75a"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:45:14.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196774"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000049"/>
+		</event>
+		<event>
+			<string key="id" value="i0xfe33551979dc22e819b7b3c5ca0e11adea766487c94083ffb5e900c3389f9dc3"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:45:40.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196777"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000034"/>
+		</event>
+		<event>
+			<string key="id" value="i0xe9c6b6cfcd66c268bd55264813d036cda6b01d6bd9da5a16b096b19c689a4300"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:46:05.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196779"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x643bbb96b599b036b065c1f7655c66c1d217079b048d758eaec03efaf58bc608"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:46:49.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196781"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0xec3330493afaa690278572d625343f21debc614324c83b5edf161eaefc1286c9"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:47:40.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196783"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x94672e0b74622d9c98619e8eb1a86c548a9842ca95cae2f318e3f19d56020fcc"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:48:10.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196785"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x1A1D81e1C2C12F3a5e98ee2C561615Dca5aaE244"/>
+		<string key="id" value="i0x1A1D81e1C2C12F3a5e98ee2C561615Dca5aaE244"/>
+		<event>
+			<string key="id" value="i0xa77d158de0781dd6df80a8c176c38eec0e43c8a23c41164770c0645c8ab36325"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:49:35.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196528"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x2df8d7c23d6fbbb0d8b7326611c83c73514e7d95d3a318ba538fe562083e380b"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:49:53.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196530"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa000000000000000000000000000000000000000000000000000000000000000c"/>
+		</event>
+		<event>
+			<string key="id" value="i0x33fde612daf5fc7b7a6a42099a02ea03a68362d6cd4931b8e0f4ef5ed66ca073"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:50:34.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196532"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000005a"/>
+		</event>
+		<event>
+			<string key="id" value="i0x7ef18fdc1eab6ea6d2396ee61cba486df219814aa0d3e4f0f36b6042d46d2a93"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:50:48.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196534"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0xbb3eac9a99231b5e4717030ebedcb6256f2068b29446642c79e90a6c6cf9fd01"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:51:10.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196536"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0xe3c225e2d978804c290368bc1f71e24baa0d8a237f877bd5fc2233bbf74635fb"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:51:31.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196538"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x9032848de1f5c3b9851bdbeebeb249d0f3da3a2a2f5d88d8c8d2fa73532a9f36"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:51:50.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196540"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x273aF24D3b082BC0f0c73dD1C3cBF45B59258aB1"/>
+		<string key="id" value="i0x273aF24D3b082BC0f0c73dD1C3cBF45B59258aB1"/>
+		<event>
+			<string key="id" value="i0x0387ad7db36027342a7a1e9b60a84a615cb0854fb295434961bb764d45850ddc"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:47:03.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196512"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0xd145e5dced647e2c5b6476160b2a6abcd1ad181ed8e8d90209038c4371c73d9b"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:47:32.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196514"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000056"/>
+		</event>
+		<event>
+			<string key="id" value="i0x748735ce32e74f876d13224cebc8ae66448dea5a8dd0ef602a78a4864a993bc2"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:47:49.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196516"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000028"/>
+		</event>
+		<event>
+			<string key="id" value="i0xa869d2dded0809766c5f7ceec6e3ca2e0be3524633ce51e1587bf76245053070"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:47:54.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196518"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x2f619e172e842a49da0bc57c3868f85f75d27d855409594f84cdd30b710d9256"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:48:11.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196520"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x31090408304e03b764c15d5addffcf56286326ead2cc667779b19b994721839d"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:48:24.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196522"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0xfdb66593fc7596c41b21b103d6b67941ff0bc317553cc23f617e2c4601ad3787"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:48:44.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196524"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x2b4de49aC1caabA1edac169A594113d096aa891F"/>
+		<string key="id" value="i0x2b4de49aC1caabA1edac169A594113d096aa891F"/>
+		<event>
+			<string key="id" value="i0xddcdb7ed28496744b82d922e9bf15142aa0c12d637464ff8b313247ccccababd"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:13:17.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196641"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0xc1a50737984426d3f365ff5270cda0b94c03c817e3ab5fbd365503a74b53f8ee"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:14:32.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196643"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000003"/>
+		</event>
+		<event>
+			<string key="id" value="i0xb4360288260604441b6347b3687cf222a438832930bc27920c0f0b4c93ad15ea"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:15:13.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196645"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000003e"/>
+		</event>
+		<event>
+			<string key="id" value="i0xddb481924561952a7f91f8d28548c29a7240eca9d6c9e04a06c6b5dded42f3c1"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:15:58.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196647"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x24822bd24529f66ca9cee90a27f21194f745c0bb72b617416a742053265c4d2d"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:16:23.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196649"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x4fcafda60288d803b58de5e4a049f97326adad4c8b3265136fda3d1525e6dc23"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:16:59.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196651"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x089c4a44242408092f6c2317b037d8e02864775281ae19d76581c2e34c72280c"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:17:07.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196653"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x2c7a3335b282028b0c31916e02eBf60B8803d0Fc"/>
+		<string key="id" value="i0x2c7a3335b282028b0c31916e02eBf60B8803d0Fc"/>
+		<event>
+			<string key="id" value="i0xf1472762d180de72d6f9b5fef44d06f6bb87d40a1f265f93c49b7842f91d2806"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:55:30.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196821"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x635a3382d2f2d12b269f50a6e15d3d73d02c794b52b922c0c33f9233d4aee95c"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:55:52.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196823"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa000000000000000000000000000000000000000000000000000000000000004f"/>
+		</event>
+		<event>
+			<string key="id" value="i0xafcaf2cf71a6c455bf8c72a26823a0c8ba3ef8140b903bd8649cb169cd2fcdb8"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:56:12.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196825"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000036"/>
+		</event>
+		<event>
+			<string key="id" value="i0xebc4d350ec6ac97d6734b9aca6254dad5d1cccbd9b1d217a3a4397cbaf75fa23"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:56:40.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196827"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x07a370c2174fa2460d982b51d270a2f02a08ae014cb21b1345dcddf63ffd7e1c"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:57:07.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196829"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0xdee8cff9f893ac08c218c521f0530edc53a40e7ae6cb41f7e064345b7bc344b8"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:57:20.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196831"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x994bfa3956ac155cdaba9e7f816b68273f39bc6347bd9da719a396b0a5091d6d"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:57:41.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196833"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x35D5bf690587De40c77DE343Daf1C518145D4452"/>
+		<string key="id" value="i0x35D5bf690587De40c77DE343Daf1C518145D4452"/>
+		<event>
+			<string key="id" value="i0xf503d81e9ce66277abae4d4453e636d03f81106dff979886d727c0eba4b8072c"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:52:32.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196544"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0xaf2fa067613e60128b3083be3bcc610c4427ad055870db417c9c9ae7bcea4541"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:53:31.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196546"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa000000000000000000000000000000000000000000000000000000000000003c"/>
+		</event>
+		<event>
+			<string key="id" value="i0x86b292a096e74c6bbe02ffcbfadf98750604dbb8963bd53412183715689c37bc"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:53:46.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196548"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000016"/>
+		</event>
+		<event>
+			<string key="id" value="i0xdc884d5dc3d762132a919e9fb54b202a3630a5983445d2dae5ee9b4dd6148d25"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:54:08.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196550"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0xd85bef89765274e4b1e8adb6b537807e6eb0bea284fb7ff6a1f3578541d98770"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:54:17.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196552"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x718e62441106ed3bee9d5dc41bd06bc6a3fc15715d75157197a8bf54acb3bb5c"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:54:46.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196554"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x555173df0b855bf51a0e401d918842da5c30807bcf2a9bebcad7422e64b6c105"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:54:58.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196556"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x3A59F0f146109DdF82647c05172560399341F328"/>
+		<string key="id" value="i0x3A59F0f146109DdF82647c05172560399341F328"/>
+		<event>
+			<string key="id" value="i0x0e1fede5cb6afa699f2e182eee9d88c80ce9f2beb42bbd9f87cc6f8de28ba29f"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:52:21.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196805"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x576b8cddc5344acffa9d0e45cdec8875f1f295cb914bccee50b987ec71090cd0"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:52:46.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196807"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000007"/>
+		</event>
+		<event>
+			<string key="id" value="i0x36fa1b409314ff99d8ebdbbbb0b2f8a9f1a84bd6b9297948316a12b70539033b"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:52:54.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196809"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000000a"/>
+		</event>
+		<event>
+			<string key="id" value="i0xd84aab7172eabfd001ec30a9bdfaba6025bc4453c93b6938451a59d51ecd0d9f"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:53:29.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196811"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x1e43b58cae922cbd4db8c6c4a487a998507ff32428862374b4d6ef1304cb5c7f"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:53:56.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196813"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x23a1ad7acb77763846c9e00c00c42dca718f08ce2e863bc79cd6741892fcd8d5"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:54:12.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196815"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0xc368b27f35a62aa9b6aa4098f554b75de2541c34e65fa4d07e2749d757bfc970"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:54:31.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196817"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x625118eFAaC350Fd296e9878a4A527AC06c37D21"/>
+		<string key="id" value="i0x625118eFAaC350Fd296e9878a4A527AC06c37D21"/>
+		<event>
+			<string key="id" value="i0xb3eef6315f8b968b229f9d6b7011c54cf33bffa4537532298e8bbad89d8b48e9"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:08:28.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196346"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0xdd164f278db01fcbb095fd08ba02c10ec3c4664277f3c09470e48b918e099452"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:08:40.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196348"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000029"/>
+		</event>
+		<event>
+			<string key="id" value="i0x65c28bf906149c5f6cbad5162aa1dddae2527247e88b42a31cc6134b69bc0224"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:09:00.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196350"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000021"/>
+		</event>
+		<event>
+			<string key="id" value="i0x603302f361275b36c9f0bd1fcc458bf4540c7ad666dbdf1f63e85ad5ff39960d"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:09:26.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196352"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0xb9f8bf9307186a39afe5c89d55de45da0b862cec0b0e9a053dd020cffa0c97ac"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:09:52.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196354"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x9b09586bca046315bf993a89d11a075bc1a49e4d0139d646230a2f9654e640a3"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:10:05.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196356"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0xe86cc2bf92611aa07e3c572a89d14e654c9bb545b100e47ff471d1fd1a6b8272"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:11:09.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196358"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x6592e6BA11c0b545F321cCF28a457766534a6119"/>
+		<string key="id" value="i0x6592e6BA11c0b545F321cCF28a457766534a6119"/>
+		<event>
+			<string key="id" value="i0xa6be87fb2fe999a37ae111da13866643bf27fe4753ef889440deffd2d1bb0614"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:32:29.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196448"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0xf7f7039cc549e835619b29e817700e76ac6794524e66018a1f80047e12da3577"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:32:56.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196450"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa000000000000000000000000000000000000000000000000000000000000004b"/>
+		</event>
+		<event>
+			<string key="id" value="i0x172a746c0c33818bc30f77ace3725b5f69ca6bdbd6f78c36d3fd367d7fbcf810"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:33:36.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196452"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000000d"/>
+		</event>
+		<event>
+			<string key="id" value="i0x4ca2fd66c467c11c14268a41ea1661a8a943154eb4f8563d20f62cdece6be114"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:33:55.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196454"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0xdf36c0154dd5672d769a6e0b0011baa793479c5d5161b15f9ae1bc92fe7df3d0"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:34:18.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196456"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x7a99a4eaab3b01d59892b7e9cb3ed9c0f4221fcfe38169eb564ebc64e97f2e81"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:34:49.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196458"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x5179f7be7f48d9164ab1ec165d9aa58c5f72892d42ec6deef9d1fa0d26462206"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:35:17.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196460"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x6A7884B7F02Db9f99ae562810aB1a02Dd5bDB205"/>
+		<string key="id" value="i0x6A7884B7F02Db9f99ae562810aB1a02Dd5bDB205"/>
+		<event>
+			<string key="id" value="i0xd834306e402adb2ea02c6b663c8a88d8a224a241cf4fd99ed3b137978f68d7d8"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:36:46.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196464"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0xc8913b7d2954d46b84ebcb4dee3ed3b7400bd4269faf35b84c00b02750eff8d7"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:37:04.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196466"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000020"/>
+		</event>
+		<event>
+			<string key="id" value="i0x1b70fa061c3d467c414a448780f04d219af83d148daf449316a49f5b401a47da"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:37:26.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196468"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000024"/>
+		</event>
+		<event>
+			<string key="id" value="i0x6bc1f5df10de18a35c328a8eaa639de209e2f26e1e650ae8e7b053a4647f5c8a"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:37:40.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196470"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x0d8aa4c1de61a6cbb161e6ba1044107c819e3a218de3ed2d940e4743db76de65"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:38:09.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196472"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0xb60bc389c1e75a2a3c561677f9ae140b26d16cc4c62d48e62cf1097ec0d98b11"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:38:31.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196474"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0xdbdd80d0fa44abd70c862c4045fc99a3d3e2327d2b51c6adc6101fecdcb674fd"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:38:59.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196476"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x6B00E86651e5321da790971b19797D6D129DCD6A"/>
+		<string key="id" value="i0x6B00E86651e5321da790971b19797D6D129DCD6A"/>
+		<event>
+			<string key="id" value="i0xd49575eb30139e9f17b4611079bf1b32d83deb71cf21e49a1905ba1807b02237"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:33:03.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196724"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x048ec4154cc82aa906179dacaaff0219d8a901b30f06033e3da0f4c00e0f42eb"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:33:44.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196726"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa000000000000000000000000000000000000000000000000000000000000002e"/>
+		</event>
+		<event>
+			<string key="id" value="i0xa3fb8cb7b6a80da1fad74e8625ecab1972da195960e6c85db8b354cdd9b70160"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:33:52.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196728"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000003c"/>
+		</event>
+		<event>
+			<string key="id" value="i0x1341f4231b5b43eca3e2a40c61702e8b8650bb7519374567c07aab4186d9b581"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:34:25.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196730"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0xa87b1b8968180cbfffc7f87c255d5bee07094f1cff816d79488165856788a5d9"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:34:35.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196732"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0xba258f02e2f8df04332028deadfa0bf74b9ede79de9ee558662a3fa1423b1348"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:35:36.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196734"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0xe2e8abdb46539bee10d648732051154ec9369a318cf653b37751872246b411ae"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:36:01.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196736"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x6d4B672962Edad4506cE6E95092C81B24d2752A5"/>
+		<string key="id" value="i0x6d4B672962Edad4506cE6E95092C81B24d2752A5"/>
+		<event>
+			<string key="id" value="i0x9046945e776f30a0a607a5df78f329da488a9597fd6066f6b3d26a137cdd391a"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:20:37.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196400"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x8f57007eb7a6a1a2d22ddf0280aba34813e1334bf8cda6f592818f3fe351fe62"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:20:51.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196402"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000027"/>
+		</event>
+		<event>
+			<string key="id" value="i0x2a6fd8e5eb8456d5770014136d4f0d6f81077295b1fc85dea0431d38b4384455"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:21:09.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196404"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000001f"/>
+		</event>
+		<event>
+			<string key="id" value="i0xd537e6a4f737fd145d51e795e17b203b92a466691bb40cc4d3cadd1e59751236"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:21:41.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196406"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x3936529dce0c6072dd57c74b185f7c3c288b96842451645f72fa4924369b2099"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:22:24.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196408"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x96e71b14963a50ac1f838d41ec7108409619a9674827ea69c97f3f4617288c7d"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:22:46.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196410"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x05046a6532f873866b16dc632d955242b69bcfd30c93f96c3baf950aa5cd158f"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:23:30.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196412"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x72A3c8498f22Ea061AA0e500294f05575aabCBd3"/>
+		<string key="id" value="i0x72A3c8498f22Ea061AA0e500294f05575aabCBd3"/>
+		<event>
+			<string key="id" value="i0xb9ca4099eaaab348ab261735681d2fb43ed05b3400034aec696780f6a5adfdf7"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:28:20.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196707"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0xb6995bd402a4f366b3ca993caf9bb25bf3400be6bb0334e6ab166a7398a6e48b"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:28:33.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196709"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000018"/>
+		</event>
+		<event>
+			<string key="id" value="i0xc03e582e935c3f0587c1f00eb60d2f52b50ff349e00d5431b6d6ad61e4118bad"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:29:20.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196711"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000020"/>
+		</event>
+		<event>
+			<string key="id" value="i0xc4c3e6c9e4ed387dbd2971e7747ea16a51a9c5dd08d3865830312aabc0a4e8cf"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:31:13.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196713"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x57ca8d35813fe13bba87db73144830a9ca7c7b34e3449c5caef7f476af23fb03"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:31:36.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196715"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0xf266bf979afe74f529fde03880ce3870ad4ea9f2bca35ca9017d006947a6bd23"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:31:45.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196717"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x06e82c6662311e7bec691df7989bde64edbecd5a430fbe6596e16820662758e6"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:32:22.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196719"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x7800B2c9DE387A677C2238EE4350841109312A22"/>
+		<string key="id" value="i0x7800B2c9DE387A677C2238EE4350841109312A22"/>
+		<event>
+			<string key="id" value="i0xc72eeb0e1cf7a9a58cf23ddc084063e422f51d06d1bfe10642e4ef5842219c0c"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:55:47.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196560"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x41d7851ed617d8cd7bc7b9950e70b54afdf2cc0e77603eb75cb36e1f9acaceac"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:56:22.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196562"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa000000000000000000000000000000000000000000000000000000000000002e"/>
+		</event>
+		<event>
+			<string key="id" value="i0x3a321011b88f0fd622bf92293771754da4ed18d2a54523c37cb0422bc48cc7a6"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:57:16.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196564"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000002a"/>
+		</event>
+		<event>
+			<string key="id" value="i0x15b103558accfe1237c4aebe638358870f5ccc27e35d009f3433f34a51b7d20f"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:57:51.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196566"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x3a7826bd9cabb530dea301bef3002ba0a2f8fba1db650075f8dc1c3061a3fa8a"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:58:02.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196568"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0xbe54e1670caca4bd3a83c1d590dff06909fa4e152093cdde43d34ff4c59a4559"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:58:27.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196570"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x5e90d4a0377d91db16de38e75268c2f76707532fd282508e03e6db387bbe096a"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:58:44.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196572"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x78DA4A052d1AAd0e43297Ca59B31Ef1fb15Bd43f"/>
+		<string key="id" value="i0x78DA4A052d1AAd0e43297Ca59B31Ef1fb15Bd43f"/>
+		<event>
+			<string key="id" value="i0x18a82a22575c875442f488b9c52aac1b6a5446a76fc5b3ce61a647d480da1e1a"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:40:37.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196756"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x62bc8f358e0d91b22f018ec5743346f056ea080a83879f556c54f0fa1d6706ad"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:40:58.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196758"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000001"/>
+		</event>
+		<event>
+			<string key="id" value="i0xb3a4cfd5688befeb5caa8a37c5b7e6f5a4a6bf9fc8aff329408b92783496f292"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:41:18.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196760"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000002e"/>
+		</event>
+		<event>
+			<string key="id" value="i0xc1c8b1adce8183dae4ea28caea7ab28e3d76933299fdcdc513a7aec6ba9f90c2"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:41:52.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196762"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x05438f6c38c9ebe15e3c89f22807239993cd91b7309a620108960d5c6cec921f"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:42:04.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196764"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0xcb76e12e3cea66fea0299cba0b8e66252f1c87c81268c7dea9d549cba1d07f7c"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:42:22.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196766"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0xf3fba98700e38ae185df9dcaa724a6eb4842aa531b18b61e8b8a0014b626f9ce"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:43:05.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196768"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x7b030C7C3De308fc1cB46016F4d6753113d493e3"/>
+		<string key="id" value="i0x7b030C7C3De308fc1cB46016F4d6753113d493e3"/>
+		<event>
+			<string key="id" value="i0x3f3d96348fcf624ca18f0319267b61b4f6e54ee25daed93405ec3590d6bab675"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:18:17.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196658"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x0a716fe7571e288175157a5d162cda443a51f33041a91101e4ddfa36e8204b95"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:18:35.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196660"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa000000000000000000000000000000000000000000000000000000000000005b"/>
+		</event>
+		<event>
+			<string key="id" value="i0xb8856e8c71115491e89bf9e9cf5aec73b35975aacc1ef0ea9d87fa1f46a950ab"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:18:43.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196662"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000005a"/>
+		</event>
+		<event>
+			<string key="id" value="i0xf567c7d627f39eff30441fecc881882f1942e8fd21a8e07db4f5495aaabec439"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:19:36.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196664"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x1d61ab7e7d0f7de089db1c24f5eb14cc3b9f34a5255e590bb7f34d8ebe47505e"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:20:25.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196666"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0xfc878a6c990e6b7b7618ba8bcca40830b1f8d1ee20da021135f11fae9be4c1eb"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:20:56.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196668"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x4a9b5e38369fb024cd7d7de083858e26e0d14ed0380498d9aa8da95110f84c6a"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:21:11.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196670"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x82c6592BA164Ad6ABaDfec669Bf293d1C4799565"/>
+		<string key="id" value="i0x82c6592BA164Ad6ABaDfec669Bf293d1C4799565"/>
+		<event>
+			<string key="id" value="i0x51ea11ed197c1cebb7fbfef6da42880794d93eb9e70b9c9313ab515871694a5f"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:17:29.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196384"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x5d088cd99ea3e3e5b2f3a4897ba30a1192c2c787a92cc9a3af4bac93776c8f41"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:17:44.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196386"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000059"/>
+		</event>
+		<event>
+			<string key="id" value="i0x8ee427116733d911572b12e30b1ec7306664a6dafa024780766485bdbfdc4186"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:18:18.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196388"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000063"/>
+		</event>
+		<event>
+			<string key="id" value="i0x1a02a63bb2d0e90c36aac2ca6d1f11a48144ea4bb02eaa9b7fdd2b0d3397ccfc"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:18:43.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196390"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x5e11fc6fe3f75434ed9f55337c89681cc539f44138270f25e7786fee80e16f77"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:19:17.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196392"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x8331314d25ca9cd67c653af02a678cf655ba569aacdbaae0df92fccb7d5c4d0a"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:19:27.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196394"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x3dab2c36d7e9a47902c1bb769663108b0964c4a4fb6910f624913837b7a63b70"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:19:46.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196396"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x88BEdF9Edc48f0a0F93D9160384A8f0e10012c0f"/>
+		<string key="id" value="i0x88BEdF9Edc48f0a0F93D9160384A8f0e10012c0f"/>
+		<event>
+			<string key="id" value="i0x81a7943f076f4d4aaf6827af31a738eb8bf0848c1e6552b4bd09d77a89ee5b2b"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T12:28:33.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196184"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x5de188dbdc4738609b4c823b146e519d71d197ea4abfd9fde4e2f451d770a269"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T12:29:26.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196186"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000063"/>
+		</event>
+		<event>
+			<string key="id" value="i0xff08335e2349775cec6910a414ee23161a680fffefdb564882950142e6e564dc"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T12:30:06.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196188"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000002f"/>
+		</event>
+		<event>
+			<string key="id" value="i0xe5a8a598b81e7c8b63f1ddb01397d847cea335b1062b80f31cf2d24977359320"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T12:30:35.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196190"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0xc5bb71bbb332a994a165b014c127b35196c96d305523381a789e34915f16608a"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T12:31:00.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196192"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0xed60f6eb37d111fba4a340bf710a45a67a5d0fa8e4b9d96da376ab09cf0ee8f6"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T12:31:34.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196194"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x1fd59ef672d2378b958ca0483505ecedcb2922c5f57e07544961d5ff8bcc2c6a"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T12:31:53.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196196"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x92E0a729feb4ab304aE33e4b8Dd98756692DD620"/>
+		<string key="id" value="i0x92E0a729feb4ab304aE33e4b8Dd98756692DD620"/>
+		<event>
+			<string key="id" value="i0x20d9479f2069901db50695c654471675d8d54c6edf2d8e33fcadb2be95f3d8ed"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:03:18.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196590"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x272ca2603849bab02fe34d6ba6d2cafd77df0c5701cad8c5d6a8ac0af067a5e6"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:03:56.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196592"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000014"/>
+		</event>
+		<event>
+			<string key="id" value="i0xa2a1f36579601511e7e91c833e08334b6f9921361b1be9659a56a111f0412067"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:04:03.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196594"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000006"/>
+		</event>
+		<event>
+			<string key="id" value="i0xd52c6a010ac4a744af4f1529c2d69da9b832087d21b8434631111034145462e4"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:04:32.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196596"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x4ec2d19e4bf9f89d875f567f027e2c5631301be9e6e20a3ea175828f624e5cc2"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:04:39.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196597"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x034230db5657c4e9b457b220fd1257d07958f83d298cd8e445ae41cffe0ce292"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:05:38.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196599"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x15d9d33bc1e71f01348cd8eb440ae0f354faa1ea2f9f2299d202bc023e35e931"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:05:50.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196601"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0x9caE488C54Af5e72F1831601a18A27ADa0f49F0d"/>
+		<string key="id" value="i0x9caE488C54Af5e72F1831601a18A27ADa0f49F0d"/>
+		<event>
+			<string key="id" value="i0x5a5694a2ecaf7a7f500bc32b05e6af9d46113163b6b0cf712537cddabbc1d54b"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:25:21.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196691"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x79ac3eaa4b7dddec6ef245bb0c1d32f9da50c0cfe889d473987290948a6697ad"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:25:48.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196693"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa000000000000000000000000000000000000000000000000000000000000002a"/>
+		</event>
+		<event>
+			<string key="id" value="i0x82beec951a72591a89826300064bc35e8d0a6fdf1f60119d3a6d49444e91668e"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:26:05.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196695"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000056"/>
+		</event>
+		<event>
+			<string key="id" value="i0xbc877157128845536c9189016b7f1215ed5e0e0b793d691cf84f8104aa2ba8f1"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:26:27.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196697"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x0504f9706506f1ba73343c6357009a163879f2a04991279b2185d817a5631ca0"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:26:49.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196699"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x349cd0cc77f8e70b53d8ade4ee4f021186cf040a04921fce11736feb9f61f13e"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:27:34.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196701"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x5c86e83ba6e431682ebf0794006bd0e79b8f9fafe407b87b7992971ea3d088ee"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:28:04.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196703"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0xa5cc061CDB66224792944f9d1b2234590044D305"/>
+		<string key="id" value="i0xa5cc061CDB66224792944f9d1b2234590044D305"/>
+		<event>
+			<string key="id" value="i0x371a210d78560c7cf076915fbe0770f454a377cc7c2f66bf015086b0d09e5a14"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:59:53.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196576"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x54f8e5f96e2fff6f364e665bcc2e1fda9c465ff6480641d3f7febf00a97b8b4e"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:00:26.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196578"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000014"/>
+		</event>
+		<event>
+			<string key="id" value="i0x0dd2375ce1bd6a7d4b3909c5ed9eaf4ff7090c2e2e30411fb4a3d8c29f5ceb1a"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:00:48.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196580"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000000a"/>
+		</event>
+		<event>
+			<string key="id" value="i0x89095acf4ad0db5f80b4c7c6fc26193a3792a597e3daae55d69c5b8eb30ae2ed"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:00:56.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196582"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0xec05acb3355945048e67cb9ef7b1aafbf3857816ce66fd49d81fe7f11600a7d6"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:01:01.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196584"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x7bc32ca68895e75e345019b87acc28761c156558267f90c9682dcaaac64ca021"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:02:03.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196586"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x761bdb5704e1e7bc7d9c47f37eba63bfd93f878dcfaed144a42ef8be1f549002"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:02:13.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196587"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0xaBf4598C586Af17c1d0DA6C723b977D410fA95c6"/>
+		<string key="id" value="i0xaBf4598C586Af17c1d0DA6C723b977D410fA95c6"/>
+		<event>
+			<string key="id" value="i0xcf24b8d112b5c4d0180dcabf76e6302d0757f9ce8f0b8463223fb063a286fea6"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:48:48.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196789"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x0aacd4b136a8b024b0e665f22c219f26ec619e21b0dbd2e399bfcda3a5aba474"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:49:09.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196791"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa000000000000000000000000000000000000000000000000000000000000002f"/>
+		</event>
+		<event>
+			<string key="id" value="i0x64588359de1ce550765eeddf09d373cb5061abc1cb7d168c87ae55de6ee106c8"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:49:31.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196793"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000052"/>
+		</event>
+		<event>
+			<string key="id" value="i0x889263f0ea20c792658e80f50591ecd72d5c7a45c526558e0bb13a9689e6722d"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:49:51.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196795"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0xad7f7c0b1b7f576ba303c0708681531b08f16194899f4cd84f42c85e3e3b05d6"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:49:59.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196797"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x818b60ec31e954d7ccab892dcd7f74088f70fdef423b356262bd8b02ececd232"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:50:35.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196799"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0xc775a8e3d0bf29b7877db9d9241699350a18023ee60b8a24d75297708c541f0f"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:51:34.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196801"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0xafBFcf2A70B2c9410De2f965Eb35cc6fa46AA0c8"/>
+		<string key="id" value="i0xafBFcf2A70B2c9410De2f965Eb35cc6fa46AA0c8"/>
+		<event>
+			<string key="id" value="i0x5edaa0eafac9ae39087e74750c2d4002c232f764f409bee133eaa1f68dd980c2"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:09:55.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196623"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x8fc609c8d500347f170536bebef3ba592559bc3cb7bb3287be1e3139056e81b8"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:10:41.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196625"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000025"/>
+		</event>
+		<event>
+			<string key="id" value="i0x20bdc2df1a1316704bf742336adc7ce097b4cd953ab0afe773ce4994d058030c"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:10:58.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196627"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000004e"/>
+		</event>
+		<event>
+			<string key="id" value="i0x7fb559f44ffe752520cab5f20e08621741c5f6ca6cb64ab7638854f34032f8fd"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:11:23.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196629"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x5c7e9b30676bb97f7eb6d151897058f29552e695d101d0a03c3d24b6995326e5"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:12:15.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196631"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x87097b0c125907193b0cdedb8640550cee228e8ac2468832bbce331fac93f641"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:12:29.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196634"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x6c82681fffe12c1fc4ef89a90c9540256059190e059b6eece2f793b90419cf3d"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:12:49.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196636"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0xC8C9129426C18C1Ca1e24f5a8Ca507b64F6994f6"/>
+		<string key="id" value="i0xC8C9129426C18C1Ca1e24f5a8Ca507b64F6994f6"/>
+		<event>
+			<string key="id" value="i0xc88e57a993cc10424243fda00ccaddee018e6c3f623dd74a833a615adb27ee6e"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:24:17.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196416"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x1226f6365c753869c58f4436cde0361d7c1f8b713d9f867409196305d6f9d6d8"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:24:36.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196418"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000013"/>
+		</event>
+		<event>
+			<string key="id" value="i0xce16864838184f5fa744066c49d20f4dbe56771e784c7874a6d8ca092ce31fe7"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:24:49.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196420"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000002d"/>
+		</event>
+		<event>
+			<string key="id" value="i0x821504329ab32371399006ddccc45c75892e56530b9f16f19cd59c1f8cfefbc5"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:25:13.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196422"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x6c66421e80e89c2d6010270880f970f388cff3d5a95aa1ae04e40d50a2d2c48f"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:25:30.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196424"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x6f55385e57bed8d6c10039ecd1090d3db40d339446d690be32c52d502ace147a"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:26:02.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196426"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x74a6f72617c0d0349c6d4a87890e051f147a8d016e768952368d09d85afe70a6"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:26:09.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196428"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0xcDA23297b972f2bC426864941368426a9a1b585D"/>
+		<string key="id" value="i0xcDA23297b972f2bC426864941368426a9a1b585D"/>
+		<event>
+			<string key="id" value="i0xebc9a4b6f1c578900add3605a212d3de62df1ab3506b8a12c2ae99dab10c006e"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:43:30.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196496"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x45ffabda5e6a2f10aacfaad4fd70b3292bcd7b03c53e188c3b6578ee1bc9cd46"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:43:57.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196498"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa000000000000000000000000000000000000000000000000000000000000003e"/>
+		</event>
+		<event>
+			<string key="id" value="i0x3fe5a975f9c18b9465b57c41423bda38bdda51bf0c4a3e77f936b1c80307bb3c"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:44:14.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196500"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000023"/>
+		</event>
+		<event>
+			<string key="id" value="i0x81f3002523c4790bd1d4dd03c93047ba17bac96df0f229c7b223bdaf7ce402af"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:44:43.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196502"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x13b1f7076610de5a5582b51ace780e9e004110f27b6cd8cd1326b04837c3a9d3"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:44:48.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196504"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x6e0ebbf81cbf2ef9dd64d9665535d8d8ff45fc84f3524721ee0d85d6ec4453de"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:45:07.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196506"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0xaf5846ee4efa5203dd4620d63849c8c39bf6ed15e7bf8cfc765b7f9260379407"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:45:23.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196508"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0xD15AeB4c05234993c03D6dCC9D16C510730ab79f"/>
+		<string key="id" value="i0xD15AeB4c05234993c03D6dCC9D16C510730ab79f"/>
+		<event>
+			<string key="id" value="i0x2119d61aa648baefc00b9cb4bb4ea23eb4ad2c1fe4a085427e7b67372e9b2d40"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:04:14.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196330"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x62c1dfa5629f17a43aa91129e7d880dcf2decfd69492ef4e2612f58a6d882e3f"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:04:28.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196332"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000050"/>
+		</event>
+		<event>
+			<string key="id" value="i0x9cd23385647241b863606e3a2975b4d28b4318f41dd44b0baf3bc00737e5db70"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:05:13.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196334"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000055"/>
+		</event>
+		<event>
+			<string key="id" value="i0x5c29d86262f41d0210a875a87a2e05b69d1b85717c361f39e9df63e83593d546"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:05:55.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196336"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0xd3555c837064b80b2c46e2ec86177ea06b77ed590c4852e94c7d023aed26ea01"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:06:13.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196337"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x65eac4e7047d8ca638556d97e6120127e130c5bbcc5be857719518366c73ddb5"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:06:52.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196339"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x30a1e213548bdb7e01989ff9c682f66ae911c48386a7b4378c6a2ae1d7ac47a9"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:07:28.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196341"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0xe3898a31B2B133F45fC32670c05bb40486D7F371"/>
+		<string key="id" value="i0xe3898a31B2B133F45fC32670c05bb40486D7F371"/>
+		<event>
+			<string key="id" value="i0xb2e0439f0f17c662f399767086299403f5bf94396b0738dcf7136095b1188702"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:27:30.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196432"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0xc9761850aae8a1dce1d8053b9d307ab3ebfb91ba9ec2768d530b56e2d3bffed7"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:28:26.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196434"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000022"/>
+		</event>
+		<event>
+			<string key="id" value="i0x11c7edd1cc8712bdf6f731591dfd95d8ae66850f0b291210aa92302928250da9"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:28:41.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196436"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec000000000000000000000000000000000000000000000000000000000000004d"/>
+		</event>
+		<event>
+			<string key="id" value="i0x8b87986c9ce36ff7c55cd9988527d581f575f075a543b124ec7dca02d8c8e0b3"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:29:58.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196438"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0xc56e1556e35df690a3bcc80ca5c0d443ffe2278b99dff8ab033c4ca53a66cf0a"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:30:41.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196440"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x10ca6a7883442f8f4f403fec040f4558a32eb7cec84e1b13bc18d09e6ba32e14"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:31:09.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196442"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0xe42aa78b3fcaacbd4d659d18ef675716dfd67e989e307a1720487880cf50e07b"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:31:42.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196444"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0xe552e3F3f4107CFbDA833f3333E9E4B763A68352"/>
+		<string key="id" value="i0xe552e3F3f4107CFbDA833f3333E9E4B763A68352"/>
+		<event>
+			<string key="id" value="i0x69073e1d09b7ce37e03cd089d69fbf47657b339dca8d3b6de796ad944e6a618d"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T13:39:39.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196480"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0xe95c30180b5bc1beeaeb527a54ecaf11bc15a871bfeac382f69610467c257bd3"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T13:39:57.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196482"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000008"/>
+		</event>
+		<event>
+			<string key="id" value="i0xa09e2c2e6695115bc8f1f9ab1103ef0a5871c6d58dcdc7f6a2abf0dba4f9a2f3"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:40:30.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196484"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000056"/>
+		</event>
+		<event>
+			<string key="id" value="i0xcc7c79b665cdc337db91a3d49182bfbff9c3bec650e4feb546af4330d339ff77"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:41:07.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196486"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0xf8e6cfe417910d2602998d32bcc7cd762e3f2e796487bb9eb08ae25c7a6d27de"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T13:42:00.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196488"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0xc0f07fe1d1ea1f0d487418c1851aded36c25816a91e138ae9ce64da19c695cfa"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T13:42:10.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196490"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x85f295878762026a87677574b83470392b97a6391477a8200de747afbc08dc4b"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T13:42:53.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196492"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0xF527f6b2AD35A17F5C930dB887F70E25fAC6584E"/>
+		<string key="id" value="i0xF527f6b2AD35A17F5C930dB887F70E25fAC6584E"/>
+		<event>
+			<string key="id" value="i0x875ed886d7fb436e75196f54bc8c77baf749aa77ef0f8d1a2a6c8deaa4f7321d"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T14:22:18.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196675"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x6d1f28b3a6feb812a4ac9d6d6b7e5780e15d6146cd2f2eaae53a6a1903028121"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T14:22:46.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196677"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa0000000000000000000000000000000000000000000000000000000000000004"/>
+		</event>
+		<event>
+			<string key="id" value="i0xe0c3189b121df59290ad9e5b94bbbae5dbb469510474427aea613d233cac9493"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:23:00.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196679"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000036"/>
+		</event>
+		<event>
+			<string key="id" value="i0xe1eada1a30fdc5678ecc456a63915010b17cd4929d3bcd1ec56100eb14876bfe"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:23:22.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196681"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x73cd1daaf462da4b74c6fd600540b606579b5ac5dd318e67c9f2467f96a1f43d"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T14:23:41.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196683"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x532749f2cd97859a35b2f1ff583028a13f0df8fd1bc0ab25fc8128bf75ebf679"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T14:23:58.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196685"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0x231d3ba26a2ea587f64eecdcf26d7bb04e11ec360084343adbf48f2de9015dff"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T14:24:20.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196687"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="i0xF81079b2b3b4C702Bc505CEC5b3BAEdeAC3ef865"/>
+		<string key="id" value="i0xF81079b2b3b4C702Bc505CEC5b3BAEdeAC3ef865"/>
+		<event>
+			<string key="id" value="i0x8f679742628748ec3a7f1dc6df5fa62b4047ee8c1b4f133000767738cb0bb22d"/>
+			<string key="activity_id" value="0xefe73dcb"/>
+			<string key="concept:name" value="Customer has a problem"/>
+			<date key="time:timestamp" value="2016-03-22T12:46:01.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196265"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xefe73dcb"/>
+		</event>
+		<event>
+			<string key="id" value="i0x446c0b7cf673982dc1290c3ffe052af25f2a20e2a58e4a93fbf07b7129672c8e"/>
+			<string key="activity_id" value="0xb46d63fa"/>
+			<string key="concept:name" value="Get problem description"/>
+			<date key="time:timestamp" value="2016-03-22T12:46:21.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196267"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xb46d63fa000000000000000000000000000000000000000000000000000000000000002d"/>
+		</event>
+		<event>
+			<string key="id" value="i0xbe42d899ed1751d723b2edbd9e3dbd2e7e27a18b2905571e82368b99ad3a720a"/>
+			<string key="activity_id" value="0xdfe3c3ec"/>
+			<string key="concept:name" value="Ask 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T12:47:16.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196269"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0xdfe3c3ec0000000000000000000000000000000000000000000000000000000000000012"/>
+		</event>
+		<event>
+			<string key="id" value="i0x5abb5177099ab8a368425b13b6a1f8d4a36a750d629a1a053e1f28c33a65f3ee"/>
+			<string key="activity_id" value="0x63ad6b81"/>
+			<string key="concept:name" value="Ask 2nd level support"/>
+			<date key="time:timestamp" value="2016-03-22T12:47:53.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196271"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x63ad6b81"/>
+		</event>
+		<event>
+			<string key="id" value="i0x3e7ddb9b6b6126f3bb1a81bfbdf9acc5b4bd5f8e823f72de7bd1898d9b2f3b0c"/>
+			<string key="activity_id" value="0x3b26a0ea"/>
+			<string key="concept:name" value="Provide feedback for 1st level support"/>
+			<date key="time:timestamp" value="2016-03-22T12:48:09.000Z"/>
+			<string key="org:resource" value="2nd Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196273"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x3b26a0ea"/>
+		</event>
+		<event>
+			<string key="id" value="i0x41538364bcc6f18c4949f8d5847f3467c0b8cd359fcd71f02ced1b1534e6c2c0"/>
+			<string key="activity_id" value="0x58a66413"/>
+			<string key="concept:name" value="Provide feedback for account manager"/>
+			<date key="time:timestamp" value="2016-03-22T12:48:40.000Z"/>
+			<string key="org:resource" value="1st Level Support"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196275"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x58a66413"/>
+		</event>
+		<event>
+			<string key="id" value="i0xf610915a5ac50fd43ff878a9592db5a96b53569826aa476dcd9b1337fdeea2de"/>
+			<string key="activity_id" value="0x95c07f19"/>
+			<string key="concept:name" value="Explain solution"/>
+			<date key="time:timestamp" value="2016-03-22T12:49:17.000Z"/>
+			<string key="org:resource" value="Key Account Manager"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<int key="blockNo" value="1196277"/>
+			<string key="from" value="0x1387E74982055e3e1d235AaD579350813B329b2B"/>
+			<string key="transactionData" value="0x95c07f19"/>
+		</event>
+	</trace>
+</log>
